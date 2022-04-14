@@ -1,0 +1,20 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(173, 46, 68);
+}
+button{
+    color: white;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clock{
+    position: absolute;
+    right:50px;
+    top:25px;
+    background-color: pink;
+}
